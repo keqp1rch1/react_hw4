@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const li1 = React.createElement("li", {}, "afsdsd");
+
+const li2 = React.createElement("li", {}, "asdfsdda");
+
+const li3 = React.createElement("li", {}, "asdaasd");
+
+const li4 = React.createElement("li", {}, "asdadas");
+
+
+const ul = React.createElement("ul", {}, li1, li2, li3, li4);
+
+
+const nav = React.createElement("nav", {}, ul);
+
+
+ReactDOM.render(nav, document.getElementById("root"));
