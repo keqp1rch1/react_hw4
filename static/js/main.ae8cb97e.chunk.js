@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-hm4"]=this["webpackJsonpreact-hm4"]||[]).push([[0],{3:function(e,a,t){"use strict";t.r(a);var n=t(0),s=t.n(n),r=t(2),c=t.n(r),d=s.a.createElement("li",{},"afsdsd"),l=s.a.createElement("li",{},"asdfsdda"),m=s.a.createElement("li",{},"asdaasd"),i=s.a.createElement("li",{},"asdadas"),E=s.a.createElement("ul",{},d,l,m,i),o=s.a.createElement("nav",{},E);c.a.render(o,document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.ae8cb97e.chunk.js.map
